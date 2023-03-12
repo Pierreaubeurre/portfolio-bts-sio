@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Accueil/accueil.css">
+  <script src="Accueil/accueil.js" defer></script>
+  <title>PortFolio Dechappe Gaëtan</title>
+</head>
+
+<body>
+  <header>
+    
+    <h1>PortFolio Dechappe Gaëtan</h1>
+
+  </header>
+
+  %sticky%
+
+  <div id="debut_body">
+    
+    <div id="presentation_moi">
+
+      <p>
+        Je m'appelle Gaëtan Dechappe. J'ai actuellement 21 ans et je suis en deuxième année de
+        <a href="#GEMEAU" title="Solution Logicielles et Application Métiers"><i>SLAM</i></a>
+        en option
+        <a href="#SIO" title="Service Informatique aux Organisations"><i>BTS SIO</i></a>.
+        Avant ce BTS,j'ai réalisé un
+        <a href="#SLAM" title="Gestion et Maitrise de l'EAU"><i>BTSA GEMEAU</i></a>
+        et j'ai obtenu un bac Scientifique avec specialité Science et Vie de la Terre.
+      </p>
+
+      <p>
+        J'ai réalisé deux stages pendant mon BTS SIO:
+      </p>
+      <ul>
+        <li>
+          Stage première année : du 30/05/22 au 30/06/22
+        </li>
+        <li>
+          Stage deuxième année : du 09/01/23 au 10/02/23
+        </li>
+      </ul>
+
+      <dl>
+        <dt id="SIO">BTS SIO - Solution Logicielles et Application Métiers</dt>
+        <dd>Le BTS SIO est un diplôme national en informatique de niveau bac+2.<br>
+          Il peut être préparé gratuitement en deux ans dans quelque 130 lycées publics ou privés sous contrat présents
+          sur tout le territoire français.<br>
+          Il est aussi proposé par des établissements privés sous contrat d’association avec l’état ou non. <br>
+          A l’issue de cette formation on peut intervenir en entreprise en tant que développeur d’applications
+          informatiques ou administrateur de réseaux locaux.</dd>
+
+
+        <dt id="SLAM">Option SLAM</dt>
+        <dd>Le BTS SIO option SLAM (Solutions Logicielles et Applications Métiers) est formé à la mise en place de
+          solutions informatiques au sein des entreprises et est capable de gérer un parc informatique complet.<br>
+          Avec l’option SLAM, l’étudiant est en charge du suivi du cycle de vie des applications, de l’analyse des
+          besoins
+          techniques à la maintenance des programmes.</dd>
+
+
+        <dt id="GEMEAU">BTS GEMEAU - Gestion et Maitrise de l'EAU</dt>
+        <!--D'après campus-centre.fr-->
+
+        <dd>Le titulaire de ce BTSA occupe des fonctions de technicien supérieur, le plus souvent chargé d'études sur la
+          qualité de l'eau, mais aussi sur les réseaux d'eau et d'assainissement.<br>
+          Il peut être conducteur de station d'épuration ou de traitement de l'eau potable, technicien hydraulique
+          urbaine, technicien eau et assainissement pour le montage ou l'expertise de dossiers liés à la distribution de
+          l'eau, conseiller en gestion de l'eau, technico-commercial en matériel d'irrigation, chargé de relevés
+          hydrologiques des cours d'eau, technicien rivière ou technicien hydraulique fluvial.</dd>
+        <!--D'après onisep-->
+      </dl>
+
+    </div>
+
+      <div id="slide">
+
+        <div id="div_fleche">
+
+          <div class="triangle fleche" id="gauche" onclick="gauche()"></div>
+          <div class="triangle fleche" id="droite" onclick="droite()"></div>
+
+        </div>
+
+        <div id="ensemble_image">
+
+          <img class="image_slide zoom" onclick="document.location.href='?page=projet&projet=%lien0%'" src="Accueil/screen/%screen0%">
+          <img class="image_slide zoom" onclick="document.location.href='?page=projet&projet=%lien1%'" src="Accueil/screen/%screen1%">
+          <img class="image_slide zoom" onclick="document.location.href='?page=projet&projet=%lien2%'" src="Accueil/screen/%screen2%">
+
+        </div>
+
+      </div>
+
+
+  </div>
+
+  %footer%
+
+</body>
+
+</html>

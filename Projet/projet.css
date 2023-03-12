@@ -1,0 +1,62 @@
+@import url('../Base/base.css');
+
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+#contenu {
+    border: 2px solid var(--bleu-vert);
+    padding: 1%;
+    margin: 2%;
+}
+
+#description{
+    line-height: 1.6;
+}
+
+li{
+    padding: 3px;
+}
+
+#dowload {
+    width: 100px;
+    cursor: pointer;
+    float: right;
+
+    filter: invert(1);/* inverse les couleurs*/
+}
+
+.langage{
+    height: 4%;
+    width: 50px;
+    vertical-align: middle;
+}
+
+
+#div_image{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    padding-bottom: 2%;
+}
+
+.div_screen{
+    height: 20em;
+}
+
+.screen{
+    position: relative;
+    height: 100%;
+}
+
+.screen:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}

@@ -1,0 +1,127 @@
+@import url('../Base/base.css');
+
+:root {
+    --height_image: 40em;
+    --width_image: 50rem;
+}
+
+#debut_body{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+
+    justify-content: space-between;
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+#presentation_moi {
+    border: 2px solid var(--bleu-vert);
+
+    width: 45%;
+    padding: 1%;
+}
+
+#presentation_moi p {
+    margin-bottom: 2em;
+    /* on ajoute un espace après chaque paragraphe*/
+}
+
+#presentation_moi dt {
+    font-weight: bold;
+    padding-bottom: 0.5em;
+}
+
+#presentation_moi dd {
+    padding-bottom: 1em;
+}
+
+#presentation_moi a {
+    color: gray;
+}
+
+#presentation_moi a:hover {
+    color: rgb(184, 181, 181)
+}
+
+
+/*slide*/
+#slide {
+    overflow: hidden;
+    width: var(--width_image);
+
+    position: relative;
+}
+
+#ensemble_image{
+    height: var(--height_image);
+    position:relative;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    z-index: 1;
+}
+
+.image_slide {
+    width: var(--width_image);
+    transition: transform .1s;/*Défini le temps d'execution de toute les animations se réalisant sur les images*/
+    position: relative;
+    margin: auto;
+
+    z-index: 1;
+}
+
+.zoom:hover{
+    transform: scale(1.5);/*Agrandi les images de 1.5*/
+    cursor: pointer;
+}
+
+
+#div_fleche{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+
+    width: var(--width_image);
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+}
+
+.triangle:hover{
+    cursor: pointer;
+}
+
+#gauche{
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-right: 30px solid var(--gris);
+
+    position: relative;
+    left: 5%;
+}
+
+#droite{
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
+    border-left: 30px solid var(--gris);
+
+    position: relative;
+    left: 85%;
+
+}
+
+#droite:hover{
+    border-left: 30px solid var(--mat);
+}
+
+#gauche:hover{
+    border-right: 30px solid var(--mat);
+}
+
+

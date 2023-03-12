@@ -1,0 +1,61 @@
+@import url('../Base/base.css');
+
+body{
+    font-family: sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    padding: 1%;
+}
+
+#liste{
+    margin-right:2% ;
+    margin-left:2%  ;
+    border: 4px solid var(--bleu-vert);
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 2%;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}
+
+li{
+    padding: 2px;
+}
+
+.a_liste{
+    display: block;
+    
+    color: gray;
+    font-size: xx-large;
+    text-decoration:none;
+}
+
+.a_liste:hover{
+    background-color: var(--mat);
+}
+
+
+a:hover{
+    color:var(--gris)
+}
+
+.resume{
+    display: block;
+    color: white;
+    font-size: xx-large;
+}
+
+.resume:hover{
+    background: var(--gris);
+    color: var(--noir);
+}
