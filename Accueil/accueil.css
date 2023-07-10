@@ -45,7 +45,6 @@
     color: rgb(184, 181, 181)
 }
 
-
 /*slide*/
 #slide {
     overflow: hidden;
@@ -60,6 +59,7 @@
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    align-items: center;
 
     z-index: 1;
 }
@@ -78,11 +78,10 @@
     cursor: pointer;
 }
 
-
 #div_fleche{
     display: flex;
     position: absolute;
-    top: 50%;
+    top: 40%;
     z-index: 10;
 
     width: var(--width_image);
@@ -100,7 +99,7 @@
 #gauche{
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
-    border-right: 30px solid var(--gris);
+    border-right: 30px solid var(--bleu-vert);
 
     position: relative;
     left: 5%;
@@ -109,7 +108,7 @@
 #droite{
     border-top: 18px solid transparent;
     border-bottom: 18px solid transparent;
-    border-left: 30px solid var(--gris);
+    border-left: 30px solid var(--bleu-vert);
 
     position: relative;
     left: 85%;

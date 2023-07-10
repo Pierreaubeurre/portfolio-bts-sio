@@ -18,37 +18,64 @@
 
     <div id="contenu">
 
-        <a href="" download="nom_projet">
-            <img id="dowload" src="Projet/logo_dowload.png" title="Télécharger le pdf">
+        <a href="https://github.com/Pierreaubeurre/Competence_V2">
+            <img class="icone" src="Projet/git.png" title="Accéder au code">
+        </a>
+
+        <a href="?page=projet&projet=roulette">
+            <img class="icone" id="suivant" src="Projet/suivant.png" title="Page suivante">
+        </a>
+
+        <a href="?page=projet&projet=ASETAR">
+            <img class="icone" id="precedent" src="Projet/suivant.png" title="Page suivante">
         </a>
 
         <h2>Description du projet:</h2>
 
         <p id="description">
-            La société Egnom nous a demandait de mettre en place une solution logicielle pour gérer et développer les
-            compétences de ses collaborateurs.<br>
-            Deux types d'utilisateurs sont amenés à utiliser cette application :<br>
+            La société Egnom souhaiterait mettre en place une solution logicielle pour gérer et développer les
+            compétences<br>
+            de ses collaborateurs.<br>
             <br>
-            - Les RH<br>
-            - Les collaborateurs<br>
+            La solution logicielle doit permettre de mettre en relief le portefeuille de compétence de l'entreprise avec
+            les<br>
+            compétences réellement acquises par ses collaborateurs.<br>
             <br>
-            Afin de gérer ses collaborateurs, les RH de la société doivent pouvoir :<br>
+            Pour que les collaborateurs valident des compétences, les administrateurs RH se chargeront de créer des<br>
+            évaluations avec les différents critères qui les composent.<br>
+            Ces critères seront définis par :<br>
+            - Un intitulé<br>
+            - Un nombre de points<br>
+            - Aucune, une ou plusieurs compétences associées<br>
             <br>
-            - Evaluer ses employés par rapport à des critères<br>
-            - Visualiser et créer les évaluations<br>
+            Puis, une fois créé, c'est également les administrateurs RH qui se chargeront de remplir les informations
+            sur<br>
+            les évaluations pour chaque collaborateur.<br>
+            Les informations suivantes pourront être reportées :<br>
             <br>
-            Les collaborateurs de la société doivent pouvoir :<br>
+            Pour les différents critères :<br>
+            - Le nombre de points obtenus<br>
+            - Une remarque<br>
             <br>
-            - Voir les notes qu'ils ont obtenue aux évaluations<br>
-            - Voir leur portefeuille de compétence, c'est à dire voir un résumé de leur réussite dans une compétence
-
+            Pour l'évaluation :<br>
+            - Une remarque générale<br>
+            <br>
+            De leur côté, les collaborateurs pourront consulter dans le détail, les résultats obtenus sur ces
+            évaluations.<br>
+            Dans un tableau global, le degré de maîtrise de chaque compétence sera défini automatiquement en fonction de
+            la<br>
+            moyenne des points obtenus dans chaque critère :<br>
+            - 0% à 33% -> Non acquise<br>
+            - 33% à 66% -> Partiellement acquise<br>
+            - 66% à 100% -> Acquise<br>
+            <br>
         </p>
 
         <h2>Date de début:</h2>
-        <p>01/01/2000</p>
+        <p>17/10/2023</p>
 
         <h2>Date de fin:</h2>
-        <p>01/01/2001</p>
+        <p>06/12/2023</p>
 
         <h2>Contexte de réalisation:</h2>
         <p>Fait au lycée</p>
@@ -56,7 +83,25 @@
         <h2>Compétence mises en oeuvre:</h2>
         <ul>
             <li>
+                Mettre en place son environnement d'apprentissage personnel
+            </li>
+            <li>
+                Développer son projet professionnel
+            </li>
+            <li>
+                Planifier les activités
+            </li>
+            <li>
+                Analyser les objectifs et les modalités d'organisation d'un projet
+            </li>
+            <li>
                 Participer à l'évolution d'un site Web exploitant les données de l'organisation
+            </li>
+            <li>
+                Traiter des demandes concernant les applications
+            </li>
+            <li>
+                Recenser et identifier les ressources numèriques
             </li>
         </ul>
 
@@ -67,53 +112,99 @@
             <img class="langage" src="Projet/langage_progiciel/js.png">
         </div>
 
-        <h2>Progiciels utilisés :</h2>
+        <h2>Progiciel utilisé :</h2>
         <div>
             <img class="langage" src="Projet/langage_progiciel/directus.png" style="filter:invert(1);">
         </div>
-        
-        <h2>Images du projet:</h2>
+
+        <h2>Images du projet :</h2>
+
+        <h2>Authentification :</h2>
 
         <div id="div_image">
             <div class="div_screen">
-                <img class="screen" onclick="zoom(this)" src="Projet/precision/competence_v2/screen/login.png"
+                <img class="screen" onclick="zoom(this)" src="Projet/precision/competence_v2/screen/identification.png"
                     alt="Le login du site">
             </div>
-            <div class="div_screen">
-                <img class="screen" onclick="zoom(this)" src="Projet/precision/competence_v2/screen/choix_RH.png"
-                    alt="Le menu du RH">
-            </div>
-            <div class="div_screen">
-                <img class="screen" onclick="zoom(this)"
-                    src="Projet/precision/competence_v2/screen/liste_évaluation.png">
-            </div>
         </div>
 
+        <h2>Partie administrateur :</h2>
 
         <div id="div_image">
             <div class="div_screen">
                 <img class="screen" onclick="zoom(this)"
-                    src="Projet/precision/competence_v2/screen/nouvel_evaluation.png" alt="Une peinture surréaliste">
-            </div>
-            <div class="div_screen">
-                <img class="screen" onclick="zoom(this)"
-                    src="Projet/precision/competence_v2/screen/choix_collaborateur.png"
-                    alt="Le menu des collaborateurs">
+                    src="Projet/precision/competence_v2/screen/partie_admin/menu.png" alt="Le menu des administrateurs">
             </div>
         </div>
 
         <div id="div_image">
             <div class="div_screen">
-                <img class="screen" onclick="zoom(this)" src="Projet/precision/competence_v2/screen/liste_note.png"
+                <img class="screen" onclick="zoom(this)"
+                    src="Projet/precision/competence_v2/screen/partie_admin/liste_evaluation.png"
+                    alt="La liste des évaluations">
+            </div>
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)"
+                    src="Projet/precision/competence_v2/screen/partie_admin/nouvelle_evaluation.png"
+                    alt="Le detail de l'évaluation choisie">
+            </div>
+        </div>
+
+        <div id="div_image">
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)"
+                    src="Projet/precision/competence_v2/screen/partie_admin/liste_note.png" alt="La liste des notes">
+            </div>
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)"
+                    src="Projet/precision/competence_v2/screen/partie_admin/nouvelle_note.png" alt="La liste des notes">
+            </div>
+        </div>
+
+        <h2>Partie collaborateur :</h2>
+
+        <div id="div_image">
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)"
+                    src="Projet/precision/competence_v2/screen/partie_collaborateur/menu.png"
+                    alt="Le menu de la partie collaborateur">
+            </div>
+        </div>
+
+        <div id="div_image">
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)"
+                    src="Projet/precision/competence_v2/screen/partie_collaborateur/liste_note.png"
                     alt="La liste des notes">
             </div>
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)"
+                    src="Projet/precision/competence_v2/screen/partie_collaborateur/detail_note.png"
+                    alt="Le menu de la partie collaborateur">
+            </div>
+        </div>
 
+        <div id="div_image">
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)"
+                    src="Projet/precision/competence_v2/screen/partie_collaborateur/portefeuille_competence.png"
+                    alt="Le portefeuille de compétence">
+            </div>
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)"
+                    src="Projet/precision/competence_v2/screen/partie_collaborateur/detail_competence.png"
+                    alt="Le détail de la compétence choisie">
+            </div>
+        </div>
+
+        <h2>MCD et MPD :</h2>
+
+        <div id="div_image">
             <div class="div_screen">
                 <img class="screen" onclick="zoom(this)" src="Projet/precision/competence_v2/screen/MCD.png"
-                    alt="La liste des notes">
+                    alt="Le MCD du projet">
             </div>
         </div>
-
 
     </div>
 

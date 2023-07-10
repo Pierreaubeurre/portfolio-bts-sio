@@ -10,6 +10,15 @@ h1 {
     padding: 1%;
 }
 
+#avertissement{
+    margin-right:2% ;
+    margin-left:2%;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 #liste{
     margin-right:2% ;
     margin-left:2%  ;
@@ -49,7 +58,7 @@ a:hover{
     color:var(--gris)
 }
 
-.resume{
+.github{
     display: block;
     color: white;
     font-size: xx-large;

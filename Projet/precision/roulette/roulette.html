@@ -18,27 +18,45 @@
 
     <div id="contenu">
 
-        <a href="" download="nom_projet">
-            <img id="dowload" src="Projet/logo_dowload.png" title="Télécharger le pdf">
+        <a href="https://github.com/Pierreaubeurre/roulette">
+            <img class="icone" src="Projet/git.png" title="Accéder au code">
+        </a>
+
+        <a href="?page=projet&projet=audit">
+            <img class="icone" id="suivant" src="Projet/suivant.png" title="Page suivante">
+        </a>
+
+        <a href="?page=projet&projet=competence">
+            <img class="icone" id="precedent" src="Projet/suivant.png" title="Page suivante">
         </a>
 
         <h2>Description du projet:</h2>
 
         <p id="description">
-        Une école doit pouvoir évaluer ses élèves en les tirant au sort par rapport à leur classe<br>
-        Pour celà, les utilisateurs doivent pouvoir:<br>
-        <br>
-        - Choisir une classe<br>
-        - Tirer au sort un élève<br>
-        - Noter sa présence ou non<br>
-        - Lui mettre une note<br>
+            Une école doit pouvoir évaluer ses élèves en les tirant au sort par rapport à leur classe<br>
+            Pour celà, les utilisateurs doivent pouvoir:<br>
+            <br>
+            - Choisir une classe<br>
+            - Tirer au sort un élève<br>
+            - Noter sa présence ou non<br>
+            - Lui mettre une note<br>
+            <br>
+            Ainsi, le site se divise en trois parties:<br>
+            <br>
+            - La partie "Evaluer", qui permet de créer une évaluation et de noter les élèves <br>
+            - La partie "Voir les évaluation", qui permet de visualiser les évaluations <br>
+            - La partie  "Voir les classes", qui permet de visualiser les classes ainsi que leur élève et d'éventullement en supprimer <br>
+            <br>
+
+            Ces trois parties sont selectionnables grâce à la première page disponible du site : la page de menu.<br>
         </p>
 
+
         <h2>Date de début:</h2>
-        <p>01/01/2000</p>
+        <p>27/02/2023</p>
 
         <h2>Date de fin:</h2>
-        <p>01/01/2001</p>
+        <p>02/03/2023</p>
 
         <h2>Contexte de réalisation:</h2>
         <p>Fait au lycée</p>
@@ -46,7 +64,19 @@
         <h2>Compétence mises en oeuvre:</h2>
         <ul>
             <li>
+                Développer son projet professionnel
+            </li>
+            <li>
+                Mettre en place son environnement d'apprentissage personnel
+            </li>
+            <li>
+                Planifier les activités
+            </li>
+            <li>
                 Participer à l'évolution d'un site Web exploitant les données de l'organisation
+            </li>
+            <li>
+                Traiter des demandes concernant les applications
             </li>
         </ul>
 
@@ -54,21 +84,81 @@
         <div>
             <img class="langage" src="Projet/langage_progiciel/html.png">
             <img class="langage" src="Projet/langage_progiciel/css3.png">
-            <img class="langage" src="Projet/langage_progiciel/php.png" style="height: 50px; width: 90px;" >
+            <img class="langage" src="Projet/langage_progiciel/php.png" style="height: 50px; width: 90px;">
         </div>
 
-        <h2>Images du projet:</h2>
+        <h2>Images du projet :</h2>
+
+        <h2>Menu :</h2>
 
         <div id="div_image">
             <div class="div_screen">
-                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/choix_classe.png" alt="Le choix de la classe">
+                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/menu.png"
+                    alt="Le menu du site">
             </div>
+        </div>
+
+        <h2>Partie "Evaluer" :</h2>
+
+        <div id="div_image">
             <div class="div_screen">
-                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/evaluation.png" alt="La page pour évaluer">
+                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/selection.png"
+                    alt="La selection de la classe à noter">
             </div>
+
+        </div>
+
+        <div id="div_image">
             <div class="div_screen">
-                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/MCD.png" alt="Le MCD">
+                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/visu_eval.png"
+                    alt="La page permettant de visualiser les détails de l'évaluation actuelle">
             </div>
+            
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/a_noter.png"
+                    alt="La page permettant d'évaluer les élèves">
+            </div>
+
+        </div>
+
+        <h2>Partie "Voir les évaluations" :</h2>
+
+        <div id="div_image">
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/liste_evaluation.png"
+                    alt="La page permettant de visualiser la liste des évaluations existantes">
+            </div>
+            
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/detail_eval.png"
+                    alt="La page permettant de visualiser les détails de l'évaluation choisie">
+            </div>
+
+        </div>
+
+        <h2>Partie "Voir les classes" :</h2>
+
+        <div id="div_image">
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/liste_classe.png"
+                    alt="La page permettant de visualiser la liste des classes existantes">
+            </div>
+            
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/detail_classe.png"
+                    alt="La page permettant de visualiser les détails de l'évaluation choisie">
+            </div>
+
+        </div>
+
+        <h2>MCD :</h2>
+
+        <div id="div_image">
+            <div class="div_screen">
+                <img class="screen" onclick="zoom(this)" src="Projet/precision/roulette/screen/MCD.png"
+                    alt="Le MCD du projet">
+            </div>
+
         </div>
 
     </div>
